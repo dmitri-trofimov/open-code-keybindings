@@ -1,0 +1,33 @@
+{
+  "$schema": "https://opencode.ai/v2/cli.json",
+  "theme": {
+    "name": "opencode"
+  },
+  "diffs": {
+    "wrap": "word"
+  },
+  "session": {
+    "sidebar": "auto",
+    "scrollbar": false,
+    "thinking": "hide"
+  },
+  "animations": true,
+  "keybinds": {
+    "app.exit": "<leader><leader>",
+    "session.export": "none",
+    "messages.copy": "ctrl+c",
+    "input.undo": "ctrl+z",
+    "input.redo": "ctrl+y",
+    "terminal.suspend": "none",
+    "prompt.clear": "escape",
+    "input.line.home": "ctrl+home",
+    "input.line.end": "ctrl+end",
+    "input.newline": "shift+return",
+    "input.visual.line.home": "home",
+    "input.visual.line.end": "end",
+    "session.first": "alt+home",
+    "session.last": "alt+end",
+    "input.select.all": "ctrl+a",
+    "input.delete.word.backward": "ctrl+backspace"
+  }
+}

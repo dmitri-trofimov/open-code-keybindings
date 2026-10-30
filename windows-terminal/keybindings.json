@@ -1,0 +1,52 @@
+{
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": [
+        {
+            "id": "User.sendInput.ShiftEnter",
+            "command": {
+                "action": "sendInput",
+                "input": "\u001b[13;2u"
+            }
+        },
+        {
+            "command": {
+                "action": "sendInput",
+                "input": "\u001b[127;5u"
+            },
+            "id": "User.sendInput.CtrlBackspace"
+        },
+        {
+            "command": {
+                "action": "sendInput",
+                "input": "\u001b[120;5u"
+            },
+            "id": "User.sendInput.CtrlX"
+        }
+    ],
+    "keybindings": [
+        {
+            "id": "Terminal.CopyToClipboard",
+            "keys": "ctrl+c"
+        },
+        {
+            "id": "Terminal.PasteFromClipboard",
+            "keys": "ctrl+v"
+        },
+        {
+            "id": "Terminal.DuplicatePaneAuto",
+            "keys": "alt+shift+d"
+        },
+        {
+            "id": "User.sendInput.ShiftEnter",
+            "keys": "shift+enter"
+        },
+        {
+            "id": "User.sendInput.CtrlBackspace",
+            "keys": "ctrl+backspace"
+        },
+        {
+            "id": "User.sendInput.CtrlX",
+            "keys": "ctrl+x"
+        }
+    ]
+}
